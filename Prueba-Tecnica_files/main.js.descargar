@@ -252,8 +252,8 @@ function mostrarDetalle(nombre) {
                                 <p><b>${producto.CATEGORIA_PROD_TIENDA}</b></p>
                             </div>
                         </div>
-                        <button type="button" class="close ml-auto mb-auto " data-dismiss="modal" aria-label="Close">
-                            <span class="cruz" aria-hidden="true">X</span>
+                        <button type="button" class="close ml-auto mb-auto mr-3" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <p class="ml-3 mb-0">${producto.DESCRIPCION}</p>
