@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <title>Prueba-Tecnica</title>
+</head>
+
+<body>
+    <nav></nav>
+    <h1 id="titulo" class="text-center my-5">Busqueda de Productos</h1>
+    <form id="formulario" class="d-flex justify-content-center flex-wrap">
+        <div class="d-flex my-sm-3 my-0 flex-wrap text-center">
+            <h4 class="my-auto mx-auto mx-sm-2" for="">Buscar Producto:</h4>
+            <input class="select-texto mx-auto my-3 " type="text" id="inputTexto" placeholder="Por ejemplo: Brocoli">
+        </div>
+        <div class="d-flex my-sm-3 my-0 flex-wrap text-center justify-content-center">
+            <h4 class="my-auto mx-2" for="">Categoria:</h4>
+            <select id="selectCat" class="select-texto my-sm-3 my-2 ">
+            </select>
+            <button class="mx-2 btn btn-primary my-sm-3 my-2" type="submit">
+                <h4 class="my-auto ">Buscar</h4>
+            </button>
+        </div>
+
+    </form>
+    <!-- Filtro Dropbox y Boton -->
+    <div class="d-flex justify-content-center my-3 flex-wrap" id="filtro">
+    </div>
+    <!-- Lista de Productos -->
+    <div id="lista" class="d-flex flex-wrap justify-content-center container">
+    </div>
+
+    <!-- modal Detalle -->
+    <div class="modal fade" id="modalDetalle" data-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div id="detalleProducto" class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
