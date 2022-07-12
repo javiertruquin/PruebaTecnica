@@ -4,6 +4,8 @@ body{
 p{
     font-size: 20px;
 }
+
+
 .card{
     border-color: #387b8a;
     border-width: 5px;
@@ -13,7 +15,11 @@ p{
 .card img{
     width: 40%;
 }
-.select-texto{
+.puntero-dedo{
+    cursor: pointer;
+}
+
+.texto-med{
     font-size: 1.5rem;
 }
 .btn-primary{
